@@ -36,6 +36,9 @@ Nếu bạn gặp lỗi về một vài thư viện không thể import được
 flask --debug run
 # Có một số trường hợp sử dụng vscode báo Warning nhưng vẫn có thể khởi chạy chương trình khi gõ lệnh này trên thanh terminal: flask run
 
+4. Đóng gói package:
+		pip freeze > requirements.txt
+
 Tham khảo thêm ở: https://docs.python.org/3/tutorial/venv.html
 			  và: https://t3h.com.vn/tin-tuc/trien-khai-ung-dung-vi-du-python-flask-bang-heroku
 
